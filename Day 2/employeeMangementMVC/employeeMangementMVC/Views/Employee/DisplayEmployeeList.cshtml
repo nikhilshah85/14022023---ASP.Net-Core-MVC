@@ -1,0 +1,25 @@
+﻿
+
+
+<h1> Employee List </h1>
+
+
+<form method="post">
+
+<table class="table table-bordered">
+    @foreach (var item in ViewBag.eList)
+    {
+        
+        <tr>
+            <td> @item.empNo </td>
+            <td> @item.empName </td>
+            <td> @item.empDesignation </td>
+            <td> @item.empIsPermenant </td>
+            <td> @item.empSalary </td>
+            <input type="hidden" value="@item.empNo" name="empNo" /> 
+            <td> <button class="btn btn-danger" type="submit">Delete Employee</button> </td>
+            
+        </tr>
+    }
+</table>
+</form>

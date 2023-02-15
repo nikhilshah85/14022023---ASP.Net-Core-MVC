@@ -1,0 +1,11 @@
+Create a new Action CalculateSimpleIntrest(principal, roi, years)
+{
+	calculate simpleIntrest ----
+	return view();
+}
+
+in the view 
+
+ROI and Years should come from dropdown list
+
+	

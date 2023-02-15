@@ -1,0 +1,26 @@
+﻿
+
+
+
+@if (ViewBag.accIsActive)
+{
+    <div style="background-color:green">
+        <h2> @ViewBag.accNo </h2>
+        <h2> @ViewBag.accName </h2>
+        <h2> @ViewBag.accType </h2>
+        <h2> @ViewBag.accBalance </h2>
+        <h2> @ViewBag.accIsActive </h2>
+    </div>
+}
+else
+{
+     <div style="background-color:red">
+            <h2> @ViewBag.accNo </h2>
+            <h2> @ViewBag.accName </h2>
+            <h2> @ViewBag.accType </h2>
+            <h2> @ViewBag.accBalance </h2>
+            <h2> @ViewBag.accIsActive </h2>
+        </div>
+}
+
+

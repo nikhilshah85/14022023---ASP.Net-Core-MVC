@@ -1,0 +1,26 @@
+﻿
+
+
+<form method="post">
+    <input type="number" placeholder="Enter First Number" name="num1" class="form-control"/>
+    <input type="number" placeholder="Enter First Number" name="num2" class="form-control" />
+    <button class="btn btn-warning">Calculate</button>
+</form>
+
+
+@if (ViewBag.hasError ==false)
+{
+    @if (ViewBag.hasData)
+    {    
+            <h1> Addition : @ViewBag.add </h1>
+            <h1> Subtraction : @ViewBag.sub </h1>
+            <h1> Division : @ViewBag.div </h1>
+            <h1> Multiplication : @ViewBag.multi </h1>
+    }
+}
+else
+{
+    <h1 style="color:red"> @ViewBag.errMessage </h1>
+}
+
+
