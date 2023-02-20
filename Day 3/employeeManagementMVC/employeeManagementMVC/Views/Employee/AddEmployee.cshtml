@@ -1,0 +1,25 @@
+﻿
+
+<h1> Add New Employee</h1>
+
+
+<h4 style="color:red"> 
+    @ViewBag.message</h4>
+
+<form method="post">
+
+    <input type="number" placeholder="Enter Employee Number" class="form-control" name="newEmp.eId"/>
+    <input type="text" placeholder="Enter Employee Name" class="form-control" name="newEmp.eName" />
+    <select name="newEmp.eDesignation" class="form-control">
+        <option>HR</option>
+        <option>Sales</option>
+        <option>Accounts</option>
+        <option>Developer</option>
+        <option>Operations</option>
+    </select>
+    
+    <input type="number" placeholder="Enter Employee Salary" class="form-control" name="newEmp.eSalary"/>
+    <input type="text" placeholder="Enter Employee Is Permenat" class="form-control" name="newEmp.eIsPermenant" />
+    <button class="btn btn-primary">Add Employee</button>
+</form>
+

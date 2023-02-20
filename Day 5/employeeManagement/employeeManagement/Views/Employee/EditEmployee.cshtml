@@ -1,0 +1,20 @@
+﻿
+
+
+
+
+
+<form method="post">
+    <input type="number" value="@ViewBag.emp.eId" placeholder="Enter Employee number" class="form-control" name="empChanges.eId" disabled />
+    <input type="text" value="@ViewBag.emp.eName" placeholder="Enter Employee Name" class="form-control" name="empChanges.eName" />
+    <input type="text" value="@ViewBag.emp.eDesignation" placeholder="Enter Employee Designation" class="form-control" name="empChanges.eDesignation" />
+    <input type="number" value="@ViewBag.emp.eSalary" placeholder="Enter Employee Salary" class="form-control" name="empChanges.eSalary" />
+    <input type="text" value="@ViewBag.emp.eIsPermaenant" placeholder="Enter Employee Is permenant" class="form-control" name="empChanges.eIsPermaenant" />
+
+    <button class="btn btn-danger"> Make Changes</button>
+
+</form>
+
+
+
+<h1> @ViewBag.editresult </h1>

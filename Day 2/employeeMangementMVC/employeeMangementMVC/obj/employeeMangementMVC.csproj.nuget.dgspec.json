@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\14022023 - ASP.Net Core MVC\\Day 2\\employeeMangementMVC\\employeeMangementMVC\\employeeMangementMVC.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\14022023 - ASP.Net Core MVC\\14022023---ASP.Net-Core-MVC\\Day 2\\employeeMangementMVC\\employeeMangementMVC\\employeeMangementMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\14022023 - ASP.Net Core MVC\\Day 2\\employeeMangementMVC\\employeeMangementMVC\\employeeMangementMVC.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\14022023 - ASP.Net Core MVC\\14022023---ASP.Net-Core-MVC\\Day 2\\employeeMangementMVC\\employeeMangementMVC\\employeeMangementMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\14022023 - ASP.Net Core MVC\\Day 2\\employeeMangementMVC\\employeeMangementMVC\\employeeMangementMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\14022023 - ASP.Net Core MVC\\14022023---ASP.Net-Core-MVC\\Day 2\\employeeMangementMVC\\employeeMangementMVC\\employeeMangementMVC.csproj",
         "projectName": "employeeMangementMVC",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\14022023 - ASP.Net Core MVC\\Day 2\\employeeMangementMVC\\employeeMangementMVC\\employeeMangementMVC.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\14022023 - ASP.Net Core MVC\\14022023---ASP.Net-Core-MVC\\Day 2\\employeeMangementMVC\\employeeMangementMVC\\employeeMangementMVC.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\14022023 - ASP.Net Core MVC\\Day 2\\employeeMangementMVC\\employeeMangementMVC\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\14022023 - ASP.Net Core MVC\\14022023---ASP.Net-Core-MVC\\Day 2\\employeeMangementMVC\\employeeMangementMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

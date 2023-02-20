@@ -1,0 +1,19 @@
+﻿
+
+
+<table class="table table-bordered">
+    @foreach (var item in ViewBag.emplist)
+    {
+
+        <tr>
+        <td> @item.eId </td>
+        <td> @item.eName </td>
+        <td> @item.eDesignation </td>
+        <td> @item.eIsPermaenant </td>
+        <td> @item.eSalary </td>
+         <td> @Html.ActionLink("Edit","EditEmployee",new{ searchId = item.eId }) </td>
+     </tr>
+      
+    }
+
+</table>
